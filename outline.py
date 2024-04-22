@@ -54,12 +54,18 @@ def print_results():
     # write to db
     pass
 
+def return_unupdated(partnum):
+    # prints out record as in database (call) but doesn't update in case interest is just in seeing it or already updated that day
+    pass
+
 def main():
     # user entry, UI. 
     curr_rec = None
     # set up for parallel run? if this is done need semaphore/mutex for a given record to ensure its only being edited once
     partnum = ""
     # update partnum to match user input
+    # prompt if like to update or view
+    # if update
     format_input(partnum)
     if curr_rec is not None:
         update_prev()
@@ -69,6 +75,9 @@ def main():
         average_price()
         percent_change()
         print_results()
+
+    # if view
+    return_unupdated(partnum)
     pass
 
 if __name__ == "__main__":

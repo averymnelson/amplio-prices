@@ -1,0 +1,11 @@
+Release version:
+    - setup database and record format
+    - basic UI, needs to allow user to enter the part they want
+        - ideally adaptation to take in a list (probably in csv or text, may work to copy and paste into UI) and update all of those parts
+    - scrape radwell and mc-mc
+    - business licensing for ebay to get access to auction history
+    - define formula to calculate weighted average cost based on what is deemed reliable
+    - update record of interest
+    - write back to database to update, may be able to update in place may need to delete
+    - something to return a record searched by part number as key without updating
+    
