@@ -1,0 +1,5 @@
+Data type:  String      String/date     Float                   Float   Float   Float   Float           Float               Float               Float               Float               Float
+field:      part number last updated    current retail average	data 1	data 2	data 3	auction	ebay    previous retail 1	previous retail 2	previous auction 1	previous auction 2  % change
+format:     n/a         dd/mm hh:mm     .3                      .4      .4      .4      .4              .3                  .3                  .4                  .4                  .2    
+
+12 fields
